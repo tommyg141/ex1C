@@ -6,9 +6,11 @@ float add(float x, float y){
 float sub (float x , float y){
     return(x-y);
 }
-double mul(double x, double y){
- return(x*y);   
+double mul(double x, int y){
+    y = (double)y;
+    return(x*y);   
 }
-double div(double x, double y){
- return(x/y);
+double div(double x, int y){
+    y = (double)y;
+    return(x/y);
 }
